@@ -1,0 +1,7 @@
+.search-bar-container {
+  padding-left: 18px;
+  padding-right: 29px;
+  display: flex;
+  justify-content: space-between;
+}
+
