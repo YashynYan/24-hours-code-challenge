@@ -1,3 +1,8 @@
+import {
+  DISSELECT_ALL,
+  SELECT_ALL,
+  SELECT_ITEM,
+} from "../actions/experiencesActions";
 import exchangeLogo from "./../../assets/icons/ExperiencesIcons/ExchangesLogo.svg";
 
 const defaultState = [
@@ -10,11 +15,11 @@ const defaultState = [
 
 const experiencesReducer = (state = defaultState, action) => {
   switch (action.type) {
-    case "selectAll":
+    case SELECT_ALL:
       return state.map((item) => ({ ...item, selected: true }));
-    case "disselectAll":
+    case DISSELECT_ALL:
       return state.map((item) => ({ ...item, selected: false }));
-    case "selectItem":
+    case SELECT_ITEM:
       return state.map((item) =>
         item.experienceName === action.payload.experienceName
           ? { ...item, selected: !item.selected }

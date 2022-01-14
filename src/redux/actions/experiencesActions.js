@@ -1,6 +1,6 @@
-const SELECT_ALL = "selectAll";
-const DISSELECT_ALL = "disselectAll";
-const SELECT_ITEM = "selectItem";
+export const SELECT_ALL = "selectAll";
+export const DISSELECT_ALL = "disselectAll";
+export const SELECT_ITEM = "selectItem";
 
 export const selectAll = () => {
   return {

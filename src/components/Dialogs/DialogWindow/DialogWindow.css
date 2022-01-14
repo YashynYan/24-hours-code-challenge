@@ -1,0 +1,25 @@
+.dialog-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(51, 55, 59, 0.4);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+}
+
+.dialog-container .dialog-window {
+  padding: 17px 20px 23px 19px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  height: fit-content;
+  margin-top: 18%;
+}
+
+.dialog-container .dialog-window .dialog-header {
+  display: flex;
+  justify-content: space-between;
+}
