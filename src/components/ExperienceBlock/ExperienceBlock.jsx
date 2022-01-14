@@ -14,9 +14,18 @@ export const ExperienceBlock = ({
       <div className="details-block">
         <img src={logo} alt="defi logo" />
         <div className="info">
-          <span className="experience-name">{experienceName}</span>
-          <span className="experience-description">{description}</span>
-          <span className="experience-users">{users}</span>
+          <span className="experience-name" data-testid="experience-name">
+            {experienceName}
+          </span>
+          <span
+            className="experience-description"
+            data-testid="experience-description"
+          >
+            {description}
+          </span>
+          <span className="experience-users" data-testid="experience-users">
+            {users}
+          </span>
         </div>
       </div>
       <div className="arrow-block">
