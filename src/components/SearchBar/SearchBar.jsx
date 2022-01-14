@@ -7,11 +7,11 @@ import { launchDialog } from "../../redux/actions";
 import "./SearchBar.css";
 import { dialogTypes } from "../Dialogs/DialogTypes";
 
-export const SearchBar = () => {
+export const SearchBar = ({onSearch}) => {
   const dispatch = useDispatch();
 
   const handleOnSearch = (searchText) => {
-    console.log(searchText);
+    onSearch(searchText);
   };
 
   const handleOnFilterIconClick = () => {

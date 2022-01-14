@@ -1,0 +1,12 @@
+.search-container {
+  padding-left: 18px;
+  padding-right: 25px;
+}
+
+.search-block-header {
+  font-weight: 600;
+  font-size: 14px;
+  color: #6f6e73;
+  margin-bottom: 23px;
+  margin-top: 14px;
+}

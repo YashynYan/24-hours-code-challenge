@@ -20,6 +20,11 @@
   line-height: 22px;
 }
 
+.search-input-container .search-input:focus-visible {
+  outline: 2px solid #885fff;
+  caret-color: #885fff;
+}
+
 .search-input-container .search-icon {
   position: absolute;
   top: 10px;

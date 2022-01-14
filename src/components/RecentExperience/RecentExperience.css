@@ -1,0 +1,12 @@
+.recent-experience-container {
+  padding: 22px 25px 13px 18px;
+}
+
+.recent-experience-container .recent-experience-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.154px;
+  color: #414047;
+  margin-bottom: 12px;
+}

@@ -1,0 +1,49 @@
+.header-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #32404e;
+  margin-right: 11px;
+}
+
+.selected-filters {
+  padding: 2px 8.1px 3px;
+  background: #885fff;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.experiences-body {
+  margin-top: 20px;
+}
+
+.option-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.option-name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #32404e;
+}
+
+.all-experiences input {
+  margin-right: 17.5px;
+}
+
+.option-wrapper input {
+  margin-right: 16.5px;
+}
+
+.option-wrapper img {
+  margin-right: 15px;
+}

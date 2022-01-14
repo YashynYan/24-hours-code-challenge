@@ -1,0 +1,45 @@
+.experience-block {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 16px;
+}
+
+.experience-block .arrow-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.experience-block .details-block {
+  display: flex;
+}
+
+.experience-block .details-block .info {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-left: 15px;
+}
+
+.experience-name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #32404e;
+}
+
+.experience-description {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #5e6872;
+}
+
+.experience-users {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  color: #587be0;
+}
