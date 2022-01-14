@@ -1,6 +1,7 @@
 # 24 hours code challenge
 
-This project is a result of 24 hours challenge (time spent 9 hours, time charged - 6:30) 
+This project is a result of 24 hours challenge (time spent 9 hours, time charged - 6:30).
+Live demo - https://yashynyan.github.io/24-hours-code-challenge/
 
 ## Scripts
 
