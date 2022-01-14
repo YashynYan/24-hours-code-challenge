@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/24-hours-code-challenge/static/css/main.a78a8e34.css",
+    "main.js": "/24-hours-code-challenge/static/js/main.ca74cb22.js",
+    "static/js/787.89e4d6a8.chunk.js": "/24-hours-code-challenge/static/js/787.89e4d6a8.chunk.js",
+    "static/media/defi-swap-logo.svg": "/24-hours-code-challenge/static/media/defi-swap-logo.b3d6b97b180e580f3bf9e41e25d5f054.svg",
+    "static/media/Settings.svg": "/24-hours-code-challenge/static/media/Settings.f51db64689e0983c15359a1cf9580dd0.svg",
+    "static/media/docu-sign-logo.svg": "/24-hours-code-challenge/static/media/docu-sign-logo.2f0b6532ba443e685a890343bfe2734b.svg",
+    "static/media/OthersLogo.svg": "/24-hours-code-challenge/static/media/OthersLogo.57dbc339b94ce698f48a62ad3995e6b4.svg",
+    "static/media/Notification.svg": "/24-hours-code-challenge/static/media/Notification.a5e1a575c73605ab470ff1ce0722318c.svg",
+    "static/media/MarketplaceLogo.svg": "/24-hours-code-challenge/static/media/MarketplaceLogo.d1f3a12a13c5617cc9d3020bd8d1cc1f.svg",
+    "static/media/DeFiLogo.svg": "/24-hours-code-challenge/static/media/DeFiLogo.2f2629f0db38b3f642b97046834f5094.svg",
+    "index.html": "/24-hours-code-challenge/index.html",
+    "static/media/GamesLogo.svg": "/24-hours-code-challenge/static/media/GamesLogo.e6a0a503811b8640e475774502b7c7c1.svg",
+    "static/media/UserIcon.svg": "/24-hours-code-challenge/static/media/UserIcon.7ee69a6a0d1595fa8d9301f3b4150255.svg",
+    "static/media/HomePage.svg": "/24-hours-code-challenge/static/media/HomePage.2e47efe073f8136606ce39df94424d13.svg",
+    "static/media/filter-icon.svg": "/24-hours-code-challenge/static/media/filter-icon.ea7cb86cb5234ee73769cdfbd7524c58.svg",
+    "static/media/search-icon.svg": "/24-hours-code-challenge/static/media/search-icon.b177df36fcd0a969bf9da2aff00f74c7.svg",
+    "static/media/hide-chevron.svg": "/24-hours-code-challenge/static/media/hide-chevron.8340c29942a58f496b97802d447220dc.svg",
+    "static/media/ExchangesLogo.svg": "/24-hours-code-challenge/static/media/ExchangesLogo.9b26cd055ef57a38c25ef5b66817e0ab.svg",
+    "static/media/BackArrow.svg": "/24-hours-code-challenge/static/media/BackArrow.a8ebd02324bd16334ca99a8f3c2c7d6d.svg",
+    "static/media/close-icon.svg": "/24-hours-code-challenge/static/media/close-icon.cb79729c8e7a1d34e2fa9bd17d134fc5.svg",
+    "static/media/grey-hide-chevron.svg": "/24-hours-code-challenge/static/media/grey-hide-chevron.7c7459457af3775b82b64e875b43fae3.svg",
+    "static/media/arrow-right.svg": "/24-hours-code-challenge/static/media/arrow-right.2d1b1b90d91d09a17d7c6d2538416a18.svg",
+    "main.a78a8e34.css.map": "/24-hours-code-challenge/static/css/main.a78a8e34.css.map",
+    "main.ca74cb22.js.map": "/24-hours-code-challenge/static/js/main.ca74cb22.js.map",
+    "787.89e4d6a8.chunk.js.map": "/24-hours-code-challenge/static/js/787.89e4d6a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a78a8e34.css",
+    "static/js/main.ca74cb22.js"
+  ]
+}
