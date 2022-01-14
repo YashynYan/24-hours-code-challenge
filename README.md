@@ -16,3 +16,8 @@ Clone this repository and run `npm install` to install all dependencies.
 This code represent my knowledge of how to work with React library. I've created several screens from Figma file.
 Also this code represent my knowledge of react-test-library and Redux state managment library.
 All test are passed. I use Redux to handle experience options filter, dialogs rendering and experiences storing and filtering when user searchs for specific experience.
+
+## Interactable components
+
+- Search Input
+- Filter icon and filter options
