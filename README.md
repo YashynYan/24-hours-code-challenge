@@ -1,7 +1,7 @@
 # 24 hours code challenge
 
-This project is a result of 24 hours challenge (time spent 8 hours, time charged - 5:40) 
-s
+This project is a result of 24 hours challenge (time spent 9 hours, time charged - 6:30) 
+
 ## Scripts
 
 Clone this repository and run `npm install` to install all dependencies.
