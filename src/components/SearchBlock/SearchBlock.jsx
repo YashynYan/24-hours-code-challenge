@@ -4,7 +4,7 @@ import { ExperienceBlock } from "../ExperienceBlock";
 
 import "./SearchBlock.css";
 
-function SearchBlock({ searchValue }) {
+export const SearchBlock = ({ searchValue }) => {
   const experiences = useSelector((state) => state.experiences);
 
   const filteredExperiences = experiences.filter((item) =>
@@ -12,11 +12,15 @@ function SearchBlock({ searchValue }) {
   );
 
   return (
-    <div className="search-container">
-      <div className="search-block-header">{`${filteredExperiences.length} experience found`}</div>
+    <div className="search-container" data-testid="search-container">
+      <div
+        className="search-block-header"
+        data-testid="search-block-header"
+      >{`${filteredExperiences.length} experience found`}</div>
       <div>
         {filteredExperiences.map((item) => (
           <ExperienceBlock
+            key={item.experienceName}
             experienceName={item.experienceName}
             logo={item.logo}
             description={item.description}
@@ -26,6 +30,4 @@ function SearchBlock({ searchValue }) {
       </div>
     </div>
   );
-}
-
-export default SearchBlock;
+};

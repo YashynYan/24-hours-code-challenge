@@ -10,7 +10,7 @@ export const ExperienceBlock = ({
   users,
 }) => {
   return (
-    <div className="experience-block">
+    <div className="experience-block" data-testid="experience-block">
       <div className="details-block">
         <img src={logo} alt="defi logo" />
         <div className="info">

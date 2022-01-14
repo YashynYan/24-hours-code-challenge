@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { RecentExperience } from "../RecentExperience";
 import { SearchBar } from "../SearchBar/SearchBar";
-import SearchBlock from "../SearchBlock/SearchBlock";
+import { SearchBlock } from "../SearchBlock/SearchBlock";
 
 import "./Main.css";
 

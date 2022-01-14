@@ -1,7 +1,7 @@
 import { fireEvent, render, screen } from "@testing-library/react";
 import { Provider } from "react-redux";
 import { DialogWindow } from "./DialogWindow";
-import store from './../../../redux/store/store'
+import { store } from "./../../../redux/store/store";
 
 test("renders DialogWindow", () => {
   const onClose = jest.fn();
