@@ -1,0 +1,16 @@
+header {
+  padding: 13px 18px;
+  background: #f5f5f5;
+  border-bottom: 1px solid #dfdfe0;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings {
+  padding-top: 6px;
+}
