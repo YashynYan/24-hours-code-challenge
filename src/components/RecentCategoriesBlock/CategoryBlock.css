@@ -1,0 +1,17 @@
+.category-container {
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.image-block {
+  margin-bottom: 16px;
+}
+
+.category-title-block {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(51, 55, 59, 0.7);
+}

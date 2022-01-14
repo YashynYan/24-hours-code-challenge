@@ -18,16 +18,6 @@ const defaultState = [
 
 const experiencesReducer = (state = defaultState, action) => {
   switch (action.type) {
-    // case SELECT_ALL:
-    //   return state.map((item) => ({ ...item, selected: true }));
-    // case DISSELECT_ALL:
-    //   return state.map((item) => ({ ...item, selected: false }));
-    // case SELECT_ITEM:
-    //   return state.map((item) =>
-    //     item.experienceName === action.payload.experienceName
-    //       ? { ...item, selected: !item.selected }
-    //       : item
-    //   );
     default:
       return state;
   }

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { RecentCategoriesBlock } from "../RecentCategoriesBlock";
 import { RecentExperience } from "../RecentExperience";
 import { SearchBar } from "../SearchBar/SearchBar";
 import { SearchBlock } from "../SearchBlock/SearchBlock";
@@ -18,7 +19,10 @@ export const Main = () => {
       {searchText ? (
         <SearchBlock searchValue={searchText} />
       ) : (
-        <RecentExperience />
+        <>
+          <RecentExperience />
+          <RecentCategoriesBlock />
+        </>
       )}
     </main>
   );

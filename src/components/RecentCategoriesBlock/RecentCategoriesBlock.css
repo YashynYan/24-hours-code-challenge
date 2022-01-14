@@ -1,0 +1,34 @@
+.recent-categories-container {
+  padding-left: 19px;
+  padding-right: 15px;
+}
+
+.recenta-categories-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.header-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #32404e;
+}
+
+.see-all {
+  display: flex;
+  align-items: center;
+  color: #885fff;
+}
+
+.see-all .see-all-text{
+    margin-right: 8px;
+}
+
+.recent-categories{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 14px;
+   grid-row-gap: 14px;
+}
